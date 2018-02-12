@@ -38,7 +38,7 @@ describe('callbacks-built-in-prototypes', function () {
 			expect(mathResult).toBeDefined();
 		})
 		it('should equal the correct answer when passed complex, 2, 3', function() {
-			expect(math(complex, 2, 3) === correct).toBe(true)
+			expect(mathResult === correct).toBe(true)
 		})
 		
 	})
